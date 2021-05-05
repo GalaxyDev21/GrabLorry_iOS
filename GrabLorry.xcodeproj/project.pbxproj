@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A70622AD20A4D32900B1BCDF /* ReqGrabLorryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70622AC20A4D32900B1BCDF /* ReqGrabLorryVC.swift */; };
+		A70622AF20A4E37100B1BCDF /* ZWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70622AE20A4E37100B1BCDF /* ZWButton.swift */; };
+		A72CBF8520AB26C000863817 /* RequestSentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72CBF8420AB26C000863817 /* RequestSentVC.swift */; };
+		A72CBF8820AB3BC900863817 /* AddonDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72CBF8720AB3BC900863817 /* AddonDetailsVC.swift */; };
+		A74025FA209FA0380002C215 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74025F9209FA0380002C215 /* LoginVC.swift */; };
+		A74025FC20A0A3EF0002C215 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74025FB20A0A3EF0002C215 /* ForgotPasswordVC.swift */; };
+		A74025FE20A0C8750002C215 /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74025FD20A0C8750002C215 /* ChangePasswordVC.swift */; };
+		A740260020A0DDE90002C215 /* roundmulticolors.png in Resources */ = {isa = PBXBuildFile; fileRef = A74025FF20A0DDE90002C215 /* roundmulticolors.png */; };
+		A740260320A1FFA30002C215 /* UserDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A740260220A1FFA30002C215 /* UserDetailsModel.swift */; };
+		A757FB3820ADC75600BCDDE8 /* asdadfa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A757FB3720ADC75600BCDDE8 /* asdadfa.jpg */; };
+		A79A72EB20B606B3003B3C1D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7D1369A209DEAF300DB3866 /* Info.plist */; };
+		A7D13698209DEAED00DB3866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D13697209DEAED00DB3866 /* AppDelegate.swift */; };
+		A7D136AD209DEBB800DB3866 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D136A8209DEBB700DB3866 /* Constants.swift */; };
+		A7D136AE209DEBB800DB3866 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D136AA209DEBB700DB3866 /* Utilities.swift */; };
+		A7D136B4209F84E000DB3866 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D136B3209F84E000DB3866 /* RegisterVC.swift */; };
+		A7D136B7209F882900DB3866 /* BaseValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D136B6209F882900DB3866 /* BaseValidationViewController.swift */; };
+		A7E7A6BF20A7FFA000735E0C /* MyAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7A6BE20A7FFA000735E0C /* MyAccountVC.swift */; };
+		A7E7A6C120AA6EFD00735E0C /* AddonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7A6C020AA6EFD00735E0C /* AddonCell.swift */; };
+		A7FB2860209DAE3C00F008FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB285E209DAE3C00F008FF /* Main.storyboard */; };
+		A7FB2862209DAE3C00F008FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FB2861209DAE3C00F008FF /* Assets.xcassets */; };
+		A7FB2865209DAE3C00F008FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB2863209DAE3C00F008FF /* LaunchScreen.storyboard */; };
+		C43D541F20AAEAC000C6F793 /* ZWView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D541E20AAEAC000C6F793 /* ZWView.swift */; };
+		C43D542120AAEAC700C6F793 /* ZWLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43D542020AAEAC700C6F793 /* ZWLabel.swift */; };
+		C45CB6E720A018B30074C281 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CB6E620A018B30074C281 /* HomeVC.swift */; };
+		C628AFF9CF93B42AE361035C /* Pods_GrabLorry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014777B1B4FF1FB44C7A2A80 /* Pods_GrabLorry.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		014777B1B4FF1FB44C7A2A80 /* Pods_GrabLorry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrabLorry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70622AC20A4D32900B1BCDF /* ReqGrabLorryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReqGrabLorryVC.swift; sourceTree = "<group>"; };
+		A70622AE20A4E37100B1BCDF /* ZWButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWButton.swift; sourceTree = "<group>"; };
+		A72CBF8420AB26C000863817 /* RequestSentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSentVC.swift; sourceTree = "<group>"; };
+		A72CBF8720AB3BC900863817 /* AddonDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddonDetailsVC.swift; sourceTree = "<group>"; };
+		A74025F9209FA0380002C215 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A74025FB20A0A3EF0002C215 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		A74025FD20A0C8750002C215 /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		A74025FF20A0DDE90002C215 /* roundmulticolors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = roundmulticolors.png; sourceTree = "<group>"; };
+		A740260220A1FFA30002C215 /* UserDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDetailsModel.swift; sourceTree = "<group>"; };
+		A757FB3720ADC75600BCDDE8 /* asdadfa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = asdadfa.jpg; sourceTree = "<group>"; };
+		A7D13697209DEAED00DB3866 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7D1369A209DEAF300DB3866 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D136A8209DEBB700DB3866 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7D136AA209DEBB700DB3866 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A7D136B3209F84E000DB3866 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		A7D136B6209F882900DB3866 /* BaseValidationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseValidationViewController.swift; sourceTree = "<group>"; };
+		A7E7A6BE20A7FFA000735E0C /* MyAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountVC.swift; sourceTree = "<group>"; };
+		A7E7A6C020AA6EFD00735E0C /* AddonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddonCell.swift; sourceTree = "<group>"; };
+		A7FB2857209DAE3C00F008FF /* GrabLorry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrabLorry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FB285F209DAE3C00F008FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7FB2861209DAE3C00F008FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7FB2864209DAE3C00F008FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C43D541E20AAEAC000C6F793 /* ZWView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWView.swift; sourceTree = "<group>"; };
+		C43D542020AAEAC700C6F793 /* ZWLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZWLabel.swift; sourceTree = "<group>"; };
+		C45CB6E620A018B30074C281 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CC58CFE52044BB027810662A /* Pods-GrabLorry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabLorry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrabLorry/Pods-GrabLorry.debug.xcconfig"; sourceTree = "<group>"; };
+		E812946A6D465000AF68A344 /* Pods-GrabLorry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrabLorry.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrabLorry/Pods-GrabLorry.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FB2854209DAE3C00F008FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C628AFF9CF93B42AE361035C /* Pods_GrabLorry.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A579EE788035673A12B0BB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				014777B1B4FF1FB44C7A2A80 /* Pods_GrabLorry.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6F8E118B23905716FC9B1FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC58CFE52044BB027810662A /* Pods-GrabLorry.debug.xcconfig */,
+				E812946A6D465000AF68A344 /* Pods-GrabLorry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A70622AB20A4D2FF00B1BCDF /* RequestGrabLorryVC */ = {
+			isa = PBXGroup;
+			children = (
+				A70622AC20A4D32900B1BCDF /* ReqGrabLorryVC.swift */,
+				A7E7A6C020AA6EFD00735E0C /* AddonCell.swift */,
+			);
+			path = RequestGrabLorryVC;
+			sourceTree = "<group>";
+		};
+		A72CBF8320AB267900863817 /* RequestSent */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBF8420AB26C000863817 /* RequestSentVC.swift */,
+			);
+			path = RequestSent;
+			sourceTree = "<group>";
+		};
+		A72CBF8620AB3BB800863817 /* AddonDetails */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBF8720AB3BC900863817 /* AddonDetailsVC.swift */,
+			);
+			path = AddonDetails;
+			sourceTree = "<group>";
+		};
+		A740260120A1FEBB0002C215 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A740260220A1FFA30002C215 /* UserDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7D13696209DEAED00DB3866 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A7D13697209DEAED00DB3866 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A7D13699209DEAF300DB3866 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1369A209DEAF300DB3866 /* Info.plist */,
+			);
+			path = InfoPlist;
+			sourceTree = "<group>";
+		};
+		A7D1369C209DEB1E00DB3866 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A72CBF8620AB3BB800863817 /* AddonDetails */,
+				A72CBF8320AB267900863817 /* RequestSent */,
+				A7E7A6BD20A7FF8E00735E0C /* MyAccountVc */,
+				A7D1369D209DEB1E00DB3866 /* Authectication */,
+				A7D136A2209DEB2800DB3866 /* HomeVC */,
+				A70622AB20A4D2FF00B1BCDF /* RequestGrabLorryVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7D1369D209DEB1E00DB3866 /* Authectication */ = {
+			isa = PBXGroup;
+			children = (
+				A7D1369E209DEB1E00DB3866 /* ChangePasswordVC */,
+				A7D1369F209DEB1E00DB3866 /* ForgotPassWordVC */,
+				A7D136A0209DEB1E00DB3866 /* LoginVC */,
+				A7D136A1209DEB1E00DB3866 /* RegisterVC */,
+			);
+			path = Authectication;
+			sourceTree = "<group>";
+		};
+		A7D1369E209DEB1E00DB3866 /* ChangePasswordVC */ = {
+			isa = PBXGroup;
+			children = (
+				A74025FD20A0C8750002C215 /* ChangePasswordVC.swift */,
+			);
+			path = ChangePasswordVC;
+			sourceTree = "<group>";
+		};
+		A7D1369F209DEB1E00DB3866 /* ForgotPassWordVC */ = {
+			isa = PBXGroup;
+			children = (
+				A74025FB20A0A3EF0002C215 /* ForgotPasswordVC.swift */,
+			);
+			path = ForgotPassWordVC;
+			sourceTree = "<group>";
+		};
+		A7D136A0209DEB1E00DB3866 /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				A74025F9209FA0380002C215 /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		A7D136A1209DEB1E00DB3866 /* RegisterVC */ = {
+			isa = PBXGroup;
+			children = (
+				A7D136B3209F84E000DB3866 /* RegisterVC.swift */,
+			);
+			path = RegisterVC;
+			sourceTree = "<group>";
+		};
+		A7D136A2209DEB2800DB3866 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				C45CB6E620A018B30074C281 /* HomeVC.swift */,
+			);
+			name = HomeVC;
+			path = GrabLorry/HomeVC;
+			sourceTree = SOURCE_ROOT;
+		};
+		A7D136A3209DEBB700DB3866 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C43D542020AAEAC700C6F793 /* ZWLabel.swift */,
+				C43D541E20AAEAC000C6F793 /* ZWView.swift */,
+				A70622AE20A4E37100B1BCDF /* ZWButton.swift */,
+				A74025FF20A0DDE90002C215 /* roundmulticolors.png */,
+				A757FB3720ADC75600BCDDE8 /* asdadfa.jpg */,
+				A7D136B5209F882900DB3866 /* Basevalidationcon */,
+				A7D136A7209DEBB700DB3866 /* ConstantsFile */,
+				A7D136A9209DEBB700DB3866 /* UtilitiesFile */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7D136A7209DEBB700DB3866 /* ConstantsFile */ = {
+			isa = PBXGroup;
+			children = (
+				A7D136A8209DEBB700DB3866 /* Constants.swift */,
+			);
+			path = ConstantsFile;
+			sourceTree = "<group>";
+		};
+		A7D136A9209DEBB700DB3866 /* UtilitiesFile */ = {
+			isa = PBXGroup;
+			children = (
+				A7D136AA209DEBB700DB3866 /* Utilities.swift */,
+			);
+			path = UtilitiesFile;
+			sourceTree = "<group>";
+		};
+		A7D136B5209F882900DB3866 /* Basevalidationcon */ = {
+			isa = PBXGroup;
+			children = (
+				A7D136B6209F882900DB3866 /* BaseValidationViewController.swift */,
+			);
+			path = Basevalidationcon;
+			sourceTree = "<group>";
+		};
+		A7E7A6BD20A7FF8E00735E0C /* MyAccountVc */ = {
+			isa = PBXGroup;
+			children = (
+				A7E7A6BE20A7FFA000735E0C /* MyAccountVC.swift */,
+			);
+			path = MyAccountVc;
+			sourceTree = "<group>";
+		};
+		A7FB284E209DAE3B00F008FF = {
+			isa = PBXGroup;
+			children = (
+				A7FB2859209DAE3C00F008FF /* GrabLorry */,
+				A7FB2858209DAE3C00F008FF /* Products */,
+				A6F8E118B23905716FC9B1FF /* Pods */,
+				A579EE788035673A12B0BB94 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FB2858209DAE3C00F008FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FB2857209DAE3C00F008FF /* GrabLorry.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FB2859209DAE3C00F008FF /* GrabLorry */ = {
+			isa = PBXGroup;
+			children = (
+				A7D136A3209DEBB700DB3866 /* Resources */,
+				A7D13696209DEAED00DB3866 /* AppDelegate */,
+				A7D13699209DEAF300DB3866 /* InfoPlist */,
+				A7D1369C209DEB1E00DB3866 /* Controller */,
+				A740260120A1FEBB0002C215 /* Model */,
+				A7FB285E209DAE3C00F008FF /* Main.storyboard */,
+				A7FB2861209DAE3C00F008FF /* Assets.xcassets */,
+				A7FB2863209DAE3C00F008FF /* LaunchScreen.storyboard */,
+			);
+			path = GrabLorry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FB2856209DAE3C00F008FF /* GrabLorry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FB2869209DAE3C00F008FF /* Build configuration list for PBXNativeTarget "GrabLorry" */;
+			buildPhases = (
+				6E04F2F85B345E1EFD1DD2F9 /* [CP] Check Pods Manifest.lock */,
+				A7FB2853209DAE3C00F008FF /* Sources */,
+				A7FB2854209DAE3C00F008FF /* Frameworks */,
+				A7FB2855209DAE3C00F008FF /* Resources */,
+				D26C704B4BEC809D4EA9C162 /* [CP] Embed Pods Frameworks */,
+				206BFCC28A7562E0AAC1D865 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrabLorry;
+			productName = GrabLorry;
+			productReference = A7FB2857209DAE3C00F008FF /* GrabLorry.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FB284F209DAE3B00F008FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Sumit Parmar";
+				TargetAttributes = {
+					A7FB2856209DAE3C00F008FF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A7FB2852209DAE3B00F008FF /* Build configuration list for PBXProject "GrabLorry" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7FB284E209DAE3B00F008FF;
+			productRefGroup = A7FB2858209DAE3C00F008FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FB2856209DAE3C00F008FF /* GrabLorry */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FB2855209DAE3C00F008FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79A72EB20B606B3003B3C1D /* Info.plist in Resources */,
+				A757FB3820ADC75600BCDDE8 /* asdadfa.jpg in Resources */,
+				A740260020A0DDE90002C215 /* roundmulticolors.png in Resources */,
+				A7FB2865209DAE3C00F008FF /* LaunchScreen.storyboard in Resources */,
+				A7FB2862209DAE3C00F008FF /* Assets.xcassets in Resources */,
+				A7FB2860209DAE3C00F008FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206BFCC28A7562E0AAC1D865 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrabLorry/Pods-GrabLorry-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabLorry/Pods-GrabLorry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E04F2F85B345E1EFD1DD2F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GrabLorry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D26C704B4BEC809D4EA9C162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GrabLorry/Pods-GrabLorry-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireSwiftyJSON/AlamofireSwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/KSToastView/KSToastView.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftValidator/SwiftValidator.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireSwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KSToastView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftValidator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrabLorry/Pods-GrabLorry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FB2853209DAE3C00F008FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D13698209DEAED00DB3866 /* AppDelegate.swift in Sources */,
+				C45CB6E720A018B30074C281 /* HomeVC.swift in Sources */,
+				A70622AD20A4D32900B1BCDF /* ReqGrabLorryVC.swift in Sources */,
+				A7E7A6BF20A7FFA000735E0C /* MyAccountVC.swift in Sources */,
+				A7D136B4209F84E000DB3866 /* RegisterVC.swift in Sources */,
+				A74025FA209FA0380002C215 /* LoginVC.swift in Sources */,
+				A7D136AE209DEBB800DB3866 /* Utilities.swift in Sources */,
+				A70622AF20A4E37100B1BCDF /* ZWButton.swift in Sources */,
+				A72CBF8820AB3BC900863817 /* AddonDetailsVC.swift in Sources */,
+				A7D136B7209F882900DB3866 /* BaseValidationViewController.swift in Sources */,
+				C43D542120AAEAC700C6F793 /* ZWLabel.swift in Sources */,
+				A74025FC20A0A3EF0002C215 /* ForgotPasswordVC.swift in Sources */,
+				A740260320A1FFA30002C215 /* UserDetailsModel.swift in Sources */,
+				A7D136AD209DEBB800DB3866 /* Constants.swift in Sources */,
+				C43D541F20AAEAC000C6F793 /* ZWView.swift in Sources */,
+				A72CBF8520AB26C000863817 /* RequestSentVC.swift in Sources */,
+				A7E7A6C120AA6EFD00735E0C /* AddonCell.swift in Sources */,
+				A74025FE20A0C8750002C215 /* ChangePasswordVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7FB285E209DAE3C00F008FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FB285F209DAE3C00F008FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7FB2863209DAE3C00F008FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7FB2864209DAE3C00F008FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7FB2867209DAE3C00F008FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7FB2868209DAE3C00F008FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7FB286A209DAE3C00F008FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC58CFE52044BB027810662A /* Pods-GrabLorry.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nnamdi Nwachuku (3JAYZKJ2HL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3JAYZKJ2HL;
+				INFOPLIST_FILE = GrabLorry/InfoPlist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdsoftware.LorryGrabberLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "d6c6531f-3608-4f25-96e7-a90870903d93";
+				PROVISIONING_PROFILE_SPECIFIER = LorryGrabber;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7FB286B209DAE3C00F008FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E812946A6D465000AF68A344 /* Pods-GrabLorry.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nnamdi Nwachuku (3JAYZKJ2HL)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3JAYZKJ2HL;
+				INFOPLIST_FILE = GrabLorry/InfoPlist/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdsoftware.LorryGrabberLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "09d60ea3-e829-4eb9-932d-83a9c33788b9";
+				PROVISIONING_PROFILE_SPECIFIER = LorryGrabber;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FB2852209DAE3B00F008FF /* Build configuration list for PBXProject "GrabLorry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FB2867209DAE3C00F008FF /* Debug */,
+				A7FB2868209DAE3C00F008FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FB2869209DAE3C00F008FF /* Build configuration list for PBXNativeTarget "GrabLorry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FB286A209DAE3C00F008FF /* Debug */,
+				A7FB286B209DAE3C00F008FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FB284F209DAE3B00F008FF /* Project object */;
+}
